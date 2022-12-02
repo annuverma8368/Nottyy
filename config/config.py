@@ -20,12 +20,12 @@ OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1356469075").split())
 )
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
+    "SUPPORT_CHANNEL", "https://t.me/Loves_A_Beatz_Shyari")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+    "SUPPORT_GROUP", "https://t.me/venombot_support")
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "120")
+    getenv("DURATION_LIMIT", "120000")
 )
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
@@ -95,7 +95,7 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/56d1760224589ee370186.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/ec5a2f49c6b4b7d64960a.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
